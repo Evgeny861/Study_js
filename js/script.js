@@ -2,8 +2,6 @@ let money;
 
 let income;
 
-let message = 'Hello!';
-
 let addExpenses;
 
 let deposit;
