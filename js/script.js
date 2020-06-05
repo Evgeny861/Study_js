@@ -1,16 +1,14 @@
-let money;
+let money = 30000;
 
-let income;
+let income = 'фриланс';
 
-let message = 'Hello!';
+let addExpenses = 'интернет, еда, коммуналка';
 
-let addExpenses;
+let deposit = true ;
 
-let deposit;
+let mission = 100;
 
-let mission;
-
-let period;
+let period = 6;
 
 alert ('любой текст');
 
