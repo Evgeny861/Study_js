@@ -1,34 +1,34 @@
-let money = 30000;
+// второй урок
+/*
+ let money = 30000;
+ let income = 'фриланс';
+ let addExpenses = 'интернет, еда, коммуналка';
+ let deposit = true ;
+ let mission = 100;
+ let period = 6;
 
-let income = 'фриланс';
+ alert ('любой текст');
 
-let addExpenses = 'интернет, еда, коммуналка';
+ console.log (typeof money);
 
-let deposit = true ;
+ console.log (typeof income);
 
-let mission = 100;
+ console.log (typeof deposit);
 
-let period = 6;
+ console.log (addExpenses.length);
 
-// alert ('любой текст');
-
-console.log (typeof money);
-
-console.log (typeof income);
-
-console.log (typeof deposit);
-
-console.log (addExpenses.length);
-
-console.log (`Период равен ${period} месяцев`);
+ console.log (`Период равен ${period} месяцев`);
 
 console.log (`Цель заработать ${mission} рублей`);
 
-console.log (addExpenses.toLowerCase());
+ console.log (addExpenses.toLowerCase());
 
-console.log (addExpenses.split( ', '));
+ console.log (addExpenses.split( ', '));
 
-let budgetDay = money/30;
+ let budgetDay = money/30;
 
-console.log (budgetDay);
+ console.log (budgetDay);*/
 
+
+
+// Третий урок
