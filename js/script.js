@@ -2,11 +2,7 @@
 
   let money = prompt('Ваш месячный доход?', 30000);
   let income = 'фриланс';
-
-
   let addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую', ' Еда, квартира, транспорт');
-
-
   let deposit =  confirm(' Есть ли у вас депозит в банке?') ;
   let mission = 100000;
   let period = 6;
@@ -48,7 +44,7 @@ console.log(accumulatedMonth);
 
 let intent = Math.ceil(mission / accumulatedMonth) ;
 
-console.log(addExpenses);
+console.log (addExpenses.split( ', '));
 
 
 console.log(intent);
