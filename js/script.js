@@ -138,15 +138,18 @@ console.log(`Цель будет достигнута через ${Math.round(ap
 
 console.log(appData.getStatusIncome());
 
-// appData.addExpenses.forEach(function(item, i){
-  
-// });
+let result = '';
+for (let symbol of appData.addExpenses) {
+  symbol = symbol.charAt(0).toUpperCase() + symbol.substring(1);
+  result += symbol + ', ';
+}
 
-appData.addExpenses.forEach(function(item){
-    console.log(item[0].toUpperCase() + item.slice(1) );     
-  }); 
+// let words = ['первый', 'второй', 'третий'];
+// let result = '';
 
+// for (let word of words) {
+//     word = word.charAt(0).toUpperCase() + word.substring(1);
+//     result += word + ', ';
+// }
 
-// appData.addExpenses = appData.addExpenses.join();
-
-console.log(appData.addExpenses.join());
+console.log(result);
